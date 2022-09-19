@@ -34,4 +34,17 @@ let mock_snax: [Bugsnax] = [
     .init(id: "2", image: "Banopper", name: "Banopper", bio: "Frosted Peak", location: "Frosted Peak", type: "Fruity", subtype: "N/A", personality: "Evasive", calories: 10500, loves: "Chocolate, PB", hates: "N/A", fears: "N/A")
 ]
 
-//let bySnax: theSnax = load("bugsnaxKey.json")
+func colorModel(type: String) -> Color {
+    switch type {
+    case "Meaty": return .meatyRed
+    case "Sweet": return .sweetPink
+    case "Fruity": return .fruityYellow
+    case "Green": return .greenGreens
+    case "Cheesy": return .cheesyOrange
+    case "Normal": return .normalGrey
+    default: return .normalGrey
+}
+}
+
+
+

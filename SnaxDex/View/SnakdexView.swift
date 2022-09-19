@@ -18,13 +18,15 @@ struct SnakdexView: View {
                 LazyVGrid(columns: gridItems, spacing: 16) {
                     ForEach(controller.bugsnaxs) { bugsnax in
                         BugsnaxCell(bugsnax: bugsnax)
+                    }
                 }
             }
-        }
             .navigationTitle("SnaxDex")
-        }
+            }
+        
     }
 }
+    
     
     
 struct SnakdexView_Previews: PreviewProvider {

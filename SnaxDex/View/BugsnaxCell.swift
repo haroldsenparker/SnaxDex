@@ -38,9 +38,9 @@ struct BugsnaxCell: View {
                 }
             }
         }
-        .background(Color.red)
+        .background(colorModel(type: bugsnax.type))
         .cornerRadius(12)
-        .shadow(color: .red, radius: 10, x: 0, y: 0)
+        .shadow(color: colorModel(type: bugsnax.type), radius: 10, x: 0, y: 0)
     }
 }
 
@@ -49,3 +49,4 @@ struct BugsnaxCell_Previews: PreviewProvider {
         BugsnaxCell(bugsnax: mock_snax[0])
     }
 }
+
