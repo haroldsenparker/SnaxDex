@@ -7,28 +7,45 @@
 
 import SwiftUI
 
-
 struct SnakdexView: View {
     @ObservedObject var controller = BugsnaxController.shared
     private let gridItems = [GridItem(.flexible()), GridItem(.flexible())]
-   
+    @State private var isShowingFavorites = false
+    var currentBugsnax: [Bugsnax] {
+        if isShowingFavorites {
+            return controller.favorites
+        } else {
+            return controller.bugsnaxs
+        }
+    }
+    
     var body: some View {
         NavigationView {
             ScrollView {
                 LazyVGrid(columns: gridItems, spacing: 16) {
-                    ForEach(controller.bugsnaxs) { bugsnax in
-                        BugsnaxCell(bugsnax: bugsnax)
+                    ForEach(currentBugsnax) { bugsnax in
+                        NavigationLink(destination: BugsnaxDetailView(bugsnax: bugsnax)) {
+                            BugsnaxCell(bugsnax: bugsnax)
+                        }
                     }
                 }
             }
             .navigationTitle("SnaxDex")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        withAnimation {
+                            isShowingFavorites.toggle()
+                        }
+                    } label: {
+                        Text(isShowingFavorites ? "All" : "Favorites")
+                    }
+                }
             }
-        
+        }
     }
 }
-    
-    
-    
+
 struct SnakdexView_Previews: PreviewProvider {
     static var previews: some View {
         SnakdexView()

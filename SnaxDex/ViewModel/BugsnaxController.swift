@@ -12,9 +12,16 @@ final class BugsnaxController: ObservableObject {
     
     @Published var bugsnaxs: [Bugsnax]
     
+   @Published var favorites = [Bugsnax]()
+    var favoriteIDs = ["0", "1"]
+    // get this array from user defaults and add heart icon to detail view
+    
     init() {
         let container: SnaxContainer = load("bugsnaxKey.json")
         bugsnaxs = container.snax
+        favorites = bugsnaxs.filter {
+            favoriteIDs.contains($0.id)
+        }
     }
 }
 

@@ -44,6 +44,9 @@ struct BugsnaxCell: View {
     }
 }
 
+
+
+
 struct BugsnaxCell_Previews: PreviewProvider {
     static var previews: some View {
         BugsnaxCell(bugsnax: mock_snax[0])
