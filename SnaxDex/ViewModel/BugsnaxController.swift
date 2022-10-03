@@ -11,10 +11,10 @@ final class BugsnaxController: ObservableObject {
     static let shared = BugsnaxController()
     
     @Published var bugsnaxs: [Bugsnax]
+    @Published var favorites = [Bugsnax]()
+    var favoriteIDs = ["0"]
     
-   @Published var favorites = [Bugsnax]()
-    var favoriteIDs = ["0", "1"]
-    // get this array from user defaults and add heart icon to detail view
+    // get this array from user defaults and add action/favorite button on detail view
     
     init() {
         let container: SnaxContainer = load("bugsnaxKey.json")

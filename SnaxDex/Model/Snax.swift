@@ -42,7 +42,7 @@ func colorModel(type: String) -> Color {
     case "Green": return .greenGreens
     case "Cheesy": return .cheesyOrange
     case "Normal": return .normalGrey
-    default: return .normalGrey
+    default: return .white
 }
 }
 

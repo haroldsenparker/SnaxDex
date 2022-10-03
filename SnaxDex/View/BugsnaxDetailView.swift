@@ -19,8 +19,7 @@ struct BugsnaxDetailView: View {
             ScrollView {
                 
                 Spacer()
-                
-                
+            
                 Image(bugsnax.image)
                     .resizable()
                     .frame(width: 200, height: 200)
@@ -39,6 +38,8 @@ struct BugsnaxDetailView: View {
                         .overlay(RoundedRectangle(cornerRadius: 20).fill(Color.black.opacity(0.25))
                         )
                     
+                    
+                    
                     Text(bugsnax.bio)
                         .font(Font.system(size: 17, weight: .semibold, design: .rounded))
                         .multilineTextAlignment(.leading)
@@ -47,36 +48,42 @@ struct BugsnaxDetailView: View {
                     
                     if let subtype = bugsnax.subtype {
                         Text("Subtype: \(subtype)")
-                            .font(Font.system(size: 18, weight: .regular, design: .rounded))
-                            .padding(.trailing)
-                            .padding(.init(top: 1, leading: 1, bottom: 1, trailing: 145))
+                            .font(Font.system(size: 20, weight: .regular, design: .rounded))
+                            .frame(width: 300, height: 25, alignment: .leading)
+                            .multilineTextAlignment(.leading)
                     }
+                    
                     Text("Location: \(bugsnax.location)")
                         .font(Font.system(size: 20, weight: .regular, design: .rounded))
-                        .padding(.trailing)
-                        .padding(.init(top: 10, leading: 0, bottom: 2, trailing: 100))
+                        .multilineTextAlignment(.leading)
+                        .frame(width: 220, height: 25, alignment: .leading)
                     
                     Text("Calories: \(bugsnax.calories)")
                         .font(Font.system(size: 20, weight: .regular, design: .rounded))
-                        .padding(.init(top: 2, leading: 0, bottom: 2, trailing: 169))
+                        .multilineTextAlignment(.leading)
+                        .frame(width: 220, height: 25, alignment: .leading)
                     
                     
                     Text("Personality: \(bugsnax.personality)")
                         .font(Font.system(size: 20, weight: .regular, design: .rounded))
-                        .padding(.init(top: 2, leading: 0, bottom: 2, trailing: 113))
+                        .multilineTextAlignment(.leading)
+                        .frame(width: 220, height: 25, alignment: .leading)
                     
                     Text("Loves: \(bugsnax.loves)")
                         .font(Font.system(size: 20, weight: .regular, design: .rounded))
-                        .padding(.init(top: 2, leading: 0, bottom: 2, trailing: 162))
+                        .multilineTextAlignment(.leading)
+                        .frame(width: 220, height: 25, alignment: .leading)
                     
                     Text("Fears: \(bugsnax.fears)")
                         .font(Font.system(size: 20, weight: .regular, design: .rounded))
-                        .padding(.init(top: 2, leading: 0, bottom: 2, trailing: 225))
+                        .multilineTextAlignment(.leading)
+                        .frame(width: 220, height: 25, alignment: .leading)
                     
                     Text("Hates: \(bugsnax.hates)")
                         .font(Font.system(size: 20, weight: .regular, design: .rounded))
-                        .padding(.init(top: 2, leading: 0, bottom: 2, trailing: 223))
-                    
+                        .multilineTextAlignment(.leading)
+                        .frame(width: 220, height: 25, alignment: .leading)
+        
                 }
             }
         }
