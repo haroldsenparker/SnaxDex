@@ -14,6 +14,7 @@
 		FA2DA85D28B7D4970039CC36 /* SnakdexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2DA85C28B7D4970039CC36 /* SnakdexView.swift */; };
 		FA5D59B428C0F7A100CAB685 /* bugsnaxKey.json in Resources */ = {isa = PBXBuildFile; fileRef = FA5D59B328C0F7A100CAB685 /* bugsnaxKey.json */; };
 		FA5D59B628C1100500CAB685 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D59B528C1100500CAB685 /* ColorExtension.swift */; };
+		FAAD8D5628EC87E3003E5847 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAD8D5528EC87E3003E5847 /* FavoriteButton.swift */; };
 		FAEB6D3B28BD0BE500CD87D6 /* Snax.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEB6D3A28BD0BE500CD87D6 /* Snax.swift */; };
 		FAEB6D4128BD140500CD87D6 /* BugsnaxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEB6D4028BD140500CD87D6 /* BugsnaxController.swift */; };
 		FAF2419328CF835400C1C1F2 /* BugsnaxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2419228CF835400C1C1F2 /* BugsnaxDetailView.swift */; };
@@ -28,6 +29,7 @@
 		FA2DA85C28B7D4970039CC36 /* SnakdexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakdexView.swift; sourceTree = "<group>"; };
 		FA5D59B328C0F7A100CAB685 /* bugsnaxKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bugsnaxKey.json; sourceTree = "<group>"; };
 		FA5D59B528C1100500CAB685 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		FAAD8D5528EC87E3003E5847 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		FAEB6D3A28BD0BE500CD87D6 /* Snax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snax.swift; sourceTree = "<group>"; };
 		FAEB6D4028BD140500CD87D6 /* BugsnaxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BugsnaxController.swift; path = SnaxDex/ViewModel/BugsnaxController.swift; sourceTree = SOURCE_ROOT; };
 		FAF2419228CF835400C1C1F2 /* BugsnaxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugsnaxDetailView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			children = (
 				FAEB6D3A28BD0BE500CD87D6 /* Snax.swift */,
 				FA5D59B528C1100500CAB685 /* ColorExtension.swift */,
+				FAAD8D5528EC87E3003E5847 /* FavoriteButton.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				FAF2419328CF835400C1C1F2 /* BugsnaxDetailView.swift in Sources */,
 				FAEB6D4128BD140500CD87D6 /* BugsnaxController.swift in Sources */,
 				FAEB6D3B28BD0BE500CD87D6 /* Snax.swift in Sources */,
+				FAAD8D5628EC87E3003E5847 /* FavoriteButton.swift in Sources */,
 				FA2DA85D28B7D4970039CC36 /* SnakdexView.swift in Sources */,
 				FA2DA85B28B7D1E40039CC36 /* BugsnaxCell.swift in Sources */,
 				FA5D59B628C1100500CAB685 /* ColorExtension.swift in Sources */,

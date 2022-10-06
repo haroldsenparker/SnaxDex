@@ -9,7 +9,9 @@ import SwiftUI
 
 struct SnakdexView: View {
     @ObservedObject var controller = BugsnaxController.shared
+    private var snaxs = [Bugsnax]()
     private let gridItems = [GridItem(.flexible()), GridItem(.flexible())]
+    
     @State private var isShowingFavorites = false
     var currentBugsnax: [Bugsnax] {
         if isShowingFavorites {
@@ -18,6 +20,7 @@ struct SnakdexView: View {
             return controller.bugsnaxs
         }
     }
+    
     
     var body: some View {
         NavigationView {
@@ -32,7 +35,7 @@ struct SnakdexView: View {
             }
             .navigationTitle("SnaxDex")
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button {
                         withAnimation {
                             isShowingFavorites.toggle()

@@ -12,15 +12,14 @@ final class BugsnaxController: ObservableObject {
     
     @Published var bugsnaxs: [Bugsnax]
     @Published var favorites = [Bugsnax]()
-    var favoriteIDs = ["0"]
-    
-    // get this array from user defaults and add action/favorite button on detail view
+    @Published var favoriteIDs: Set<Bool> = [true, false]
+
     
     init() {
         let container: SnaxContainer = load("bugsnaxKey.json")
         bugsnaxs = container.snax
         favorites = bugsnaxs.filter {
-            favoriteIDs.contains($0.id)
+            favoriteIDs.contains($0.isFavorite)
         }
     }
 }

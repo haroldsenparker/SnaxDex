@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct BugsnaxDetailView: View {
-    
+    @ObservedObject var controller = BugsnaxController.shared
     let bugsnax: Bugsnax
+    
+    var bugsnaxIndex: Int {
+        controller.bugsnaxs.firstIndex(where: { $0.id == bugsnax.id})!
+    }
     
     var body: some View {
         ZStack {
-            Color.detailBackground
-                .ignoresSafeArea()
-            
             ScrollView {
                 
                 Spacer()
@@ -26,9 +27,16 @@ struct BugsnaxDetailView: View {
                     .border(Color.black, width: 2)
                 
                 VStack(spacing: 11.0) {
+            
                     Text(bugsnax.name.capitalized)
                         .font(Font.system(size: 40, weight: .bold, design: .rounded))
                         .padding(.top, 5)
+                    
+                    HStack {
+                        FavoriteButton(isSet: $controller.bugsnaxs[bugsnaxIndex].isFavorite)
+                            .frame(width: 190, height: 5, alignment: .trailing)
+                            
+                    }
                     
                     Text(bugsnax.type.capitalized)
                         .font(.subheadline).bold()
@@ -39,7 +47,7 @@ struct BugsnaxDetailView: View {
                         )
                     
                     
-                    
+                    Group {
                     Text(bugsnax.bio)
                         .font(Font.system(size: 17, weight: .semibold, design: .rounded))
                         .multilineTextAlignment(.leading)
@@ -78,12 +86,13 @@ struct BugsnaxDetailView: View {
                         .font(Font.system(size: 20, weight: .regular, design: .rounded))
                         .multilineTextAlignment(.leading)
                         .frame(width: 220, height: 25, alignment: .leading)
+                
                     
                     Text("Hates: \(bugsnax.hates)")
                         .font(Font.system(size: 20, weight: .regular, design: .rounded))
                         .multilineTextAlignment(.leading)
                         .frame(width: 220, height: 25, alignment: .leading)
-        
+                    }
                 }
             }
         }
@@ -94,4 +103,5 @@ struct BugsnaxDetailView: View {
             BugsnaxDetailView(bugsnax: mock_snax[0])
         }
     }
+
 }

@@ -11,7 +11,8 @@
             "calories": 62800,
             "loves": "Hot Sauce",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "1",
@@ -25,7 +26,8 @@
             "calories": 56000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "2",
@@ -38,7 +40,8 @@
             "calories": 10500,
             "loves": "Chocolate, PB",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "3",
@@ -51,7 +54,8 @@
             "calories": 9000,
             "loves": "Chocolate, PB",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "4",
@@ -65,7 +69,8 @@
             "calories": 8200,
             "loves": "N/A",
             "hates": "Charmellow",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "5",
@@ -79,7 +84,8 @@
             "calories": 3666,
             "loves": "Cheese, Hot Sauce",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "6",
@@ -93,7 +99,8 @@
             "calories": 4100,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "7",
@@ -107,7 +114,8 @@
             "calories": 30300,
             "loves": "Ketchup, Mustard",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "8",
@@ -121,7 +129,8 @@
             "calories": 53500,
             "loves": "Ketchup, Mustard, Ranch",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "9",
@@ -135,7 +144,8 @@
             "calories": 67700,
             "loves": "Ketchup, Mustard",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "10",
@@ -149,7 +159,8 @@
             "calories": 32500,
             "loves": "Ranch, Hot Sauce",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "11",
@@ -162,7 +173,8 @@
             "calories": 13000,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "12",
@@ -175,7 +187,8 @@
             "calories": 19000,
             "loves": "PB",
             "hates": "Traps",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "13",
@@ -189,7 +202,8 @@
             "calories": 26800,
             "loves": "Chocolate, PB",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "14",
@@ -203,7 +217,8 @@
             "calories": 2132000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "15",
@@ -216,7 +231,8 @@
             "calories": 90000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "16",
@@ -230,7 +246,8 @@
             "calories": 15000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "17",
@@ -244,7 +261,8 @@
             "calories": 16000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "18",
@@ -258,7 +276,8 @@
             "calories": 16000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "19",
@@ -271,7 +290,8 @@
             "calories": 7700,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "20",
@@ -284,7 +304,8 @@
             "calories": 3300,
             "loves": "Cheese",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "21",
@@ -298,7 +319,8 @@
             "calories": 16600,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "22",
@@ -311,7 +333,8 @@
             "calories": 7800,
             "loves": "Chocolate, PB",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "23",
@@ -324,7 +347,8 @@
             "calories": 7000,
             "loves": "Chocolate, PB",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "24",
@@ -338,7 +362,8 @@
             "calories": 88000,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "25",
@@ -351,7 +376,8 @@
             "calories": 144000,
             "loves": "Hot Sauce, Cheese",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "26",
@@ -364,7 +390,8 @@
             "calories": 15500,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "27",
@@ -377,7 +404,8 @@
             "calories": 34400,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "28",
@@ -390,7 +418,8 @@
             "calories": 34400,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "29",
@@ -404,7 +433,8 @@
             "calories": 8000,
             "loves": "Chocolate, PB",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "30",
@@ -417,7 +447,8 @@
             "calories": 5200,
             "loves": "Chocolate, PB",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "31",
@@ -431,7 +462,8 @@
             "calories": 1344000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "32",
@@ -445,7 +477,8 @@
             "calories": 16000,
             "loves": "Hot Sauce",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "33",
@@ -458,7 +491,8 @@
             "calories": 10900,
             "loves": "Hot Sauce",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "34",
@@ -472,7 +506,8 @@
             "calories": 180000,
             "loves": "Chocolate, PB",
             "hates": "Loaded Spuddy",
-            "fears": "Preying Picantis"
+            "fears": "Preying Picantis",
+            "isFavorite": false
         },
         {
             "id": "35",
@@ -486,7 +521,8 @@
             "calories": 26200,
             "loves": "PB",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "36",
@@ -499,7 +535,8 @@
             "calories": 36500,
             "loves": "Ketchup, Mustard, Ranch",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "37",
@@ -512,7 +549,8 @@
             "calories": 40000,
             "loves": "Ketchup, Mustard, Ranch",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "38",
@@ -526,7 +564,8 @@
             "calories":330,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "39",
@@ -540,7 +579,8 @@
             "calories":370,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "40",
@@ -554,7 +594,8 @@
             "calories": 6400,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "41",
@@ -568,7 +609,8 @@
             "calories": 44700,
             "loves": "Cheese, Hot Sauce",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "42",
@@ -582,7 +624,8 @@
             "calories": 20000,
             "loves": "Ranch, Cheese",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "43",
@@ -595,7 +638,8 @@
             "calories": 52400,
             "loves": "Camera",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "44",
@@ -609,7 +653,8 @@
             "calories": 4100,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "45",
@@ -622,7 +667,8 @@
             "calories": 4200,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "46",
@@ -635,7 +681,8 @@
             "calories": 15000,
             "loves": "PB",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "47",
@@ -649,7 +696,8 @@
             "calories": 3600,
             "loves": "Cheese",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "48",
@@ -663,7 +711,8 @@
             "calories": 4900,
             "loves": "Cheese",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "49",
@@ -677,7 +726,8 @@
             "calories": 548400,
             "loves": "Wee Mewons",
             "hates": "Traps",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "50",
@@ -691,7 +741,8 @@
             "calories": 952000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "51",
@@ -705,7 +756,8 @@
             "calories": 10000,
             "loves": "Chocolate",
             "hates": "Fire",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "52",
@@ -719,7 +771,8 @@
             "calories": 5900,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "53",
@@ -733,7 +786,8 @@
             "calories": 1008000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "54",
@@ -747,7 +801,8 @@
             "calories": 50000,
             "loves": "Hot Sauce, Cheese",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "55",
@@ -761,7 +816,8 @@
             "calories": 4100,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "56",
@@ -775,7 +831,8 @@
             "calories": 8200,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "57",
@@ -788,7 +845,8 @@
             "calories": 402400,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "58",
@@ -802,7 +860,8 @@
             "calories": 2000,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "59",
@@ -816,7 +875,8 @@
             "calories": 4500,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "60",
@@ -829,7 +889,8 @@
             "calories": 10400,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "61",
@@ -843,7 +904,8 @@
             "calories": 1700,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "62",
@@ -857,7 +919,8 @@
             "calories": 45200,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "Crapple"
+            "fears": "Crapple",
+            "isFavorite": false
         },
         {
             "id": "63",
@@ -870,7 +933,8 @@
             "calories": 2800,
             "loves": "Ranch",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "64",
@@ -883,7 +947,8 @@
             "calories":100,
             "loves": "Cheese, Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "65",
@@ -896,7 +961,8 @@
             "calories": 10800,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "66",
@@ -910,7 +976,8 @@
             "calories": 93600,
             "loves": "Cheese, Hot Sauce",
             "hates": "N/A",
-            "fears": "Loaded Spuddy"
+            "fears": "Loaded Spuddy",
+            "isFavorite": false
         },
         {
             "id": "67",
@@ -924,7 +991,8 @@
             "calories":430,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "68",
@@ -938,7 +1006,8 @@
             "calories":430,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "69",
@@ -952,7 +1021,8 @@
             "calories": 2500,
             "loves": "Ranch",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "70",
@@ -966,7 +1036,8 @@
             "calories": 10000,
             "loves": "Ranch",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "71",
@@ -979,7 +1050,8 @@
             "calories": 31000,
             "loves": "Cheese, Ranch",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "72",
@@ -992,7 +1064,8 @@
             "calories": 31000,
             "loves": "Cheese, Ranch",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "73",
@@ -1006,7 +1079,8 @@
             "calories": 83800,
             "loves": "Chocolate",
             "hates": "Stewdler",
-            "fears": "Scoopy Banoopy"
+            "fears": "Scoopy Banoopy",
+            "isFavorite": false
         },
         {
             "id": "74",
@@ -1020,7 +1094,8 @@
             "calories": 112500,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "75",
@@ -1034,7 +1109,8 @@
             "calories": 2600,
             "loves": "Cheese",
             "hates": "Hot Sauce",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "76",
@@ -1048,7 +1124,8 @@
             "calories": 1500,
             "loves": "Cheese",
             "hates": "Hot Sauce",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "77",
@@ -1062,7 +1139,8 @@
             "calories": 54000,
             "loves": "Chocolate",
             "hates": "Noodler, Flamin Cheepoof",
-            "fears": "Paletoss Grande"
+            "fears": "Paletoss Grande",
+            "isFavorite": false
         },
         {
             "id": "78",
@@ -1075,7 +1153,8 @@
             "calories": 25200,
             "loves": "Red Sauce",
             "hates": "N/A",
-            "fears": "Bunger"
+            "fears": "Bunger",
+            "isFavorite": false
         },
         {
             "id": "79",
@@ -1088,7 +1167,8 @@
             "calories": 45900,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "80",
@@ -1102,7 +1182,8 @@
             "calories": 44100,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "81",
@@ -1115,7 +1196,8 @@
             "calories": 42000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "82",
@@ -1128,7 +1210,8 @@
             "calories": 41000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "83",
@@ -1141,7 +1224,8 @@
             "calories": 47900,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "84",
@@ -1154,7 +1238,8 @@
             "calories": 69300,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "85",
@@ -1167,7 +1252,8 @@
             "calories": 50400,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "86",
@@ -1180,7 +1266,8 @@
             "calories": 38000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "87",
@@ -1194,7 +1281,8 @@
             "calories": 11100,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "88",
@@ -1207,7 +1295,8 @@
             "calories": 15000,
             "loves": "N/A",
             "hates": "Fire/All sauces",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "89",
@@ -1220,7 +1309,8 @@
             "calories": 8000,
             "loves": "N/A",
             "hates": "Fire/All sauces",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "90",
@@ -1233,7 +1323,8 @@
             "calories" : 0,
             "loves": "N/A",
             "hates": "Fire/All sauces",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "91",
@@ -1247,7 +1338,8 @@
             "calories": 17000,
             "loves": "N/A",
             "hates": "Fire/All sauces",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "92",
@@ -1260,7 +1352,8 @@
             "calories": 40000,
             "loves": "Cheese",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "93",
@@ -1273,7 +1366,8 @@
             "calories": 29000,
             "loves": "Chocolate, PB",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "94",
@@ -1286,7 +1380,8 @@
             "calories": 16100,
             "loves": "Ketchup, Cheese",
             "hates": "Spuddy",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "95",
@@ -1299,7 +1394,8 @@
             "calories": 10300,
             "loves": "Cheese, Ketchup",
             "hates": "Preying Picantis",
-            "fears": "Spuddy"
+            "fears": "Spuddy",
+            "isFavorite": false
         },
         {
             "id": "96",
@@ -1313,7 +1409,8 @@
             "calories":400,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "97",
@@ -1327,7 +1424,8 @@
             "calories":400,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "98",
@@ -1341,7 +1439,8 @@
             "calories": 31300,
             "loves": "Hot Sauce",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "99",
@@ -1355,7 +1454,8 @@
             "calories": 2600,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "100",
@@ -1369,7 +1469,8 @@
             "calories": 11000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "101",
@@ -1383,7 +1484,8 @@
             "calories": 12500,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "102",
@@ -1397,7 +1499,8 @@
             "calories": 13000,
             "loves": "N/A",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "103",
@@ -1410,7 +1513,8 @@
             "calories": 16980,
             "loves": "Cheese, Hot Sauce",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "104",
@@ -1423,7 +1527,8 @@
             "calories": 27000,
             "loves": "Cheese, Hot Sauce",
             "hates": "N/A",
-            "fears": "n/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "105",
@@ -1437,7 +1542,8 @@
             "calories": 124900,
             "loves": "Hot Sauce",
             "hates": "Eggler, Deviled Eggler, Eggabell",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "106",
@@ -1451,7 +1557,8 @@
             "calories": 20500,
             "loves": "Hot Sauce",
             "hates": "N/A",
-            "fears": "Crapple"
+            "fears": "Crapple",
+            "isFavorite": false
         },
         {
             "id": "107",
@@ -1465,7 +1572,8 @@
             "calories": 187800,
             "loves": "Chocolate",
             "hates": "N/A",
-            "fears": "Crapple"
+            "fears": "Crapple",
+            "isFavorite": false
         },
         {
             "id": "108",
@@ -1478,7 +1586,8 @@
             "calories": 5700,
             "loves": "Traps",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "109",
@@ -1491,7 +1600,8 @@
             "calories": 15100,
             "loves": "Ketchup, Cheese",
             "hates": "N/A",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         },
         {
             "id": "110",
@@ -1504,7 +1614,8 @@
             "calories": 15900,
             "loves": "Cheese",
             "hates": "Ketchup",
-            "fears": "N/A"
+            "fears": "N/A",
+            "isFavorite": false
         }
     ]
 }
