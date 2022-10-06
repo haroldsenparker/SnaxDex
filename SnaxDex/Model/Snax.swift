@@ -12,7 +12,7 @@ struct SnaxContainer: Decodable {
     let snax: [Bugsnax]
 }
 
-struct Bugsnax: Codable, Identifiable {
+struct Bugsnax: Codable, Identifiable, Equatable {
     let id: String
     let image: String
     let name: String

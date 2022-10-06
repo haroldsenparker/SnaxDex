@@ -18,9 +18,9 @@ final class BugsnaxController: ObservableObject {
     init() {
         let container: SnaxContainer = load("bugsnaxKey.json")
         bugsnaxs = container.snax
-        favorites = bugsnaxs.filter {
-            favoriteIDs.contains($0.isFavorite)
-        }
+       // favorites = bugsnaxs.filter {
+         //   favoriteIDs.contains($0.isFavorite)
+       // }
     }
 }
 

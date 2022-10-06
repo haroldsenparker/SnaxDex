@@ -13,15 +13,8 @@ struct SnakdexView: View {
     private let gridItems = [GridItem(.flexible()), GridItem(.flexible())]
     
     @State private var isShowingFavorites = false
-    var currentBugsnax: [Bugsnax] {
-        if isShowingFavorites {
-            return controller.favorites
-        } else {
-            return controller.bugsnaxs
-        }
-    }
-    
-    
+    @State var currentBugsnax: [Bugsnax] = []
+       
     var body: some View {
         NavigationView {
             ScrollView {
@@ -39,12 +32,23 @@ struct SnakdexView: View {
                     Button {
                         withAnimation {
                             isShowingFavorites.toggle()
+                                updateCurrentBugsnax()
                         }
                     } label: {
                         Text(isShowingFavorites ? "All" : "Favorites")
                     }
                 }
             }
+            .onAppear {
+                updateCurrentBugsnax()
+            }
+        }
+    }
+    func updateCurrentBugsnax() {
+        if isShowingFavorites {
+            self.currentBugsnax = controller.favorites
+        } else {
+            self.currentBugsnax = controller.bugsnaxs
         }
     }
 }

@@ -33,7 +33,7 @@ struct BugsnaxDetailView: View {
                         .padding(.top, 5)
                     
                     HStack {
-                        FavoriteButton(isSet: $controller.bugsnaxs[bugsnaxIndex].isFavorite)
+                        FavoriteButton(snax: $controller.bugsnaxs[bugsnaxIndex])
                             .frame(width: 190, height: 5, alignment: .trailing)
                             
                     }
